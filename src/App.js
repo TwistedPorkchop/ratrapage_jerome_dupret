@@ -5,12 +5,9 @@ import { FirstGraph } from './pages/page1';
 class App extends React.Component {
 render()
   {  return (
-      <div>
-        <h1>
-          JD
-        </h1>
+      <canvas>
         <FirstGraph></FirstGraph>
-      </div>
+      </canvas>
     );}
 }
 
